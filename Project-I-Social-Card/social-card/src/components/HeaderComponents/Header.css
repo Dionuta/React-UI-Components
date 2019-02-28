@@ -9,7 +9,8 @@ header{
 .headerContent{
     display: flex;
     flex-direction: column;
-    margin-left: 11px
+    margin-left: 11px;
+    padding-bottom: 10px;
 }
 .headerContent>p{
     margin: 0;
