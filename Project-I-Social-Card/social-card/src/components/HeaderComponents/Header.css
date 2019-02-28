@@ -2,7 +2,7 @@
 
 header{
     /* border for better alignment*/
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex; 
 }
 
@@ -20,7 +20,7 @@ header{
 
 .lambdaThumb {
     padding: 16px;
-    width: 71%;
+    width: 60%;
 }
 
 #title{
