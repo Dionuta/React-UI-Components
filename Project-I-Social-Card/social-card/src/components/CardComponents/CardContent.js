@@ -13,4 +13,5 @@ const CardContent = () => {
     )
 }
 
+//export to CardBanner.js
 export default CardContent;

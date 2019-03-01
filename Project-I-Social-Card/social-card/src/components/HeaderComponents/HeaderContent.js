@@ -13,4 +13,5 @@ const HeaderContent = () => {
     )
 }
 
+//export to HeaderContainer.js
 export default HeaderContent;

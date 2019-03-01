@@ -10,5 +10,5 @@ const CardBanner = () =>{
         </div>
     )
 } 
-
+//export to CardContainer.js
 export default CardBanner;
