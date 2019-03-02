@@ -1,2 +1,11 @@
 import React from 'react';
 import './Button.css';
+
+
+const ActionButon = props =>{
+   return <button className={props.className}>{props.text}</button>
+}
+
+
+
+export default ActionButon;

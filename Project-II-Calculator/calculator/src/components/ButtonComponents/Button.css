@@ -1,0 +1,24 @@
+.number{
+    width: 50px;
+}
+
+.clear, .zero{
+    width: 177px;
+    height: 59px;
+    margin: 0;
+}
+
+.symbol, .number{
+    height: 59px;
+    width: 59px;
+}
+
+.clear, .number, .zero{
+    background: white;
+    border-color: lightgray;
+
+}
+
+.symbol{
+    background-color:  #A0001E;
+}
