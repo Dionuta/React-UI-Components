@@ -25,11 +25,11 @@ const App = () => {
     <div className= 'outerdiv'>
       <CalculatorDisplay />
       <ActionButton className='clear'text='Clear' />
-      <NumberButton className='symbol' text="/" />
+      <NumberButton className='symbol' text="&divide;" />
       <NumberButton className='number' text="7" />
       <NumberButton className='number' text="8" />
       <NumberButton className='number' text="9" />
-      <NumberButton className='symbol' text="X" />
+      <NumberButton className='symbol' text="&times;" />
       <NumberButton className='number' text="4" />
       <NumberButton className='number' text="5" />
       <NumberButton className='number' text="6" />

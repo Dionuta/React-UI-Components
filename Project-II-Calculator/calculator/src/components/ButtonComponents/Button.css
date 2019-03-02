@@ -16,9 +16,11 @@
 .clear, .number, .zero{
     background: white;
     border-color: lightgray;
-
+    font-size: 2rem;
 }
 
 .symbol{
     background-color:  #A0001E;
+    font-size: 2rem;
+    color: white;
 }
