@@ -5,19 +5,6 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 
 
-const buttons = [
-   {
-    text: '1',
-    buttonStyle: 'number',
- },
-
- {
-   text : '2',
-   buttonStyle: 'number',
- }
-
-];
-
 
 
 const App = () => {
