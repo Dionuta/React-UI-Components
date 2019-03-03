@@ -11,6 +11,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     font-size: 35px;
+    outline: 2px solid lightgray;
 }
 
 .display > textarea{

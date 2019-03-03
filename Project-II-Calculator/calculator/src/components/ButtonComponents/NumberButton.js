@@ -3,7 +3,8 @@ import './Button.css';
 
 
 // You created this componet to make numbers each button can take props
-const NumberButton = (props) => <button className={props.className}> {props.text}</button>;
+const NumberButton = (props) => <button className={props.className} onClick={() =>props.handelClick(props.text)}> {props.text}</button>  
 
 
 export default NumberButton;
+
