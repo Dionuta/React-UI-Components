@@ -15,12 +15,15 @@
 
 .clear, .number, .zero{
     background: white;
-    border-color: lightgray;
+    outline: 3px solid lightgray;
     font-size: 2rem;
+    border:0; 
 }
 
 .symbol{
-    background-color:  #A0001E;
+    background-color: #A0001E;
     font-size: 2rem;
     color: white;
+    outline: 3px solid lightgray;
+    border: 0;
 }

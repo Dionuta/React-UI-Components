@@ -2,14 +2,9 @@ import React from 'react';
 import './Display.css';
 
 
-
-const CalculatrDisplay= () => {
-return (
-     <form>
-    <input className='display' type="text" defaultValue="0"/>
-    </form>
-  )
-}
+// The display should be able to take props from buttons
+const CalculatrDisplay= (props) => <div className='display'> {props.value} </div>;
+  
 
 
 export default CalculatrDisplay;

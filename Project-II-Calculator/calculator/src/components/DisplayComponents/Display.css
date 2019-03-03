@@ -1,14 +1,16 @@
-form{
-    width: 98.5%;
-}
+
 .display{
-    width: 100%;
+    width: 99%;
     background: black;
     color: white;
     text-align: right;
-    height: 38px;
+    height: 53px;
     font-size: x-large;
     border-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 35px;
 }
 
 .display > textarea{

@@ -1,11 +1,9 @@
 import React from 'react';
 import './Button.css';
 
-
-const ActionButon = props =>{
-   return <button className={props.className}>{props.text}</button>
-}
+// You created this componet to make Action Buttons  each button can take props
+const ActionButton = props => <button className={props.className}>{props.text}</button>;
 
 
 
-export default ActionButon;
+export default ActionButton;

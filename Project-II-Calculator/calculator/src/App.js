@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className= 'outerdiv'>
       <CalculatorDisplay />
-      <ActionButton className='clear'text='Clear' />
+      <ActionButton className='clear'text='clear' />
       <NumberButton className='symbol' text="&divide;" />
       <NumberButton className='number' text="7" />
       <NumberButton className='number' text="8" />
