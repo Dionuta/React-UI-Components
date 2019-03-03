@@ -11,12 +11,12 @@ class App extends Component {
     super(props);
 
     this.state ={
-      value: ''
+      input: ''  
     };
   }
 
   addToInput = val =>{
-    this.setState({input: this.state.input + val })
+    this.setState({input: this.state.input + val }) //allows me to update the input
   }
   render(){
   return (
