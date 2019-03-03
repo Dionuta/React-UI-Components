@@ -3,7 +3,7 @@ import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
-import * as math from 'mathjs';
+import * as math from 'mathjs'; //math.js allow for math on strings
 
 
 class App extends Component {
@@ -20,14 +20,14 @@ class App extends Component {
   }
 
   handelEqual = () => {
-    this.setState({input:math.eval(this.state.input)})
+    this.setState({input:math.eval(this.state.input)}) // equal button when know you want to know the answer no othe mathjs code needed
   }
  
   render(){
   return (
     <div className= 'outerdiv'>
       <CalculatorDisplay input={this.state.input} ></CalculatorDisplay>
-      <ActionButton handleClear={() => this.setState({ input: '' })} className='clear'text='clear' />
+      <ActionButton handleClear={() => this.setState({ input: '' })} className='clear'text='clear' /> 
       <NumberButton handleClick={this.addToInput} className='symbol' text="/" />
       <NumberButton handleClick={this.addToInput} className='number' text="7" />
       <NumberButton handleClick={this.addToInput} className='number' text="8" />
