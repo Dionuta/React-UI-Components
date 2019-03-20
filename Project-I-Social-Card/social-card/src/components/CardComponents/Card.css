@@ -1,1 +1,43 @@
 /* All styles for your Card Components live here */
+
+.cardContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ a{
+    text-decoration: none;
+    color: black;
+}
+.card {
+    width: 84%;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    margin-right: 5px;
+    padding-bottom: 14px;
+  }
+
+  .card > img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+ .card > .container {
+    padding-left: 13px;
+ }
+
+ .card > .container > h4{
+      margin-bottom: -9px;
+ }
+
+ .card > .container > p {
+    margin-bottom: 6px;
+ }
+
+ .card > .container > span{
+    color: gray;
+ }

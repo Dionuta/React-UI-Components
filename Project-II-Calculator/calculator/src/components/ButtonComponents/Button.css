@@ -1,0 +1,29 @@
+.number{
+    width: 50px;
+}
+
+.clear, .zero{
+    width: 177px;
+    height: 59px;
+    margin: 0;
+}
+
+.symbol, .number{
+    height: 59px;
+    width: 59px;
+}
+
+.clear, .number, .zero{
+    background: white;
+    outline: 3px solid lightgray;
+    font-size: 2rem;
+    border:0; 
+}
+
+.symbol{
+    background-color: #A0001E;
+    font-size: 2rem;
+    color: white;
+    outline: 3px solid lightgray;
+    border: 0;
+}

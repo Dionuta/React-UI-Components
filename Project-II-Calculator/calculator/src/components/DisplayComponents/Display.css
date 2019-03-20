@@ -1,0 +1,19 @@
+
+.display{
+    width: 99%;
+    background: black;
+    color: white;
+    text-align: right;
+    height: 53px;
+    font-size: x-large;
+    border-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 35px;
+    outline: 2px solid lightgray;
+}
+
+.display > textarea{
+    padding: 1px;
+}

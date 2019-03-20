@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+
+header{
+    /* border for better alignment*/
+    /* border: 1px solid red; */
+    display: flex; 
+}
+
+.headerContent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 11px;
+    padding-bottom: 10px;
+}
+.headerContent>p{
+    margin: 0;
+    width: 97%;
+    font-size: 13px;
+
+}
+
+.lambdaThumb {
+    padding: 16px;
+    width: 60%;
+}
+
+#title{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: -14px;
+}
+
+#title > p{
+    padding-left: 8px;
+    font-size: 10px;
+    color: gray;
+}

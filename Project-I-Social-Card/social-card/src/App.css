@@ -2,3 +2,11 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+  .outer-most{
+    border: 1px solid blue; 
+    width: 600px;
+   
+  }
+
+  /* I started by creating a blue border around my outer-most container */
+
